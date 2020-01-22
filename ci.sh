@@ -21,7 +21,7 @@
 #    --smoke
 #    --knn
 #    --srcTags
-#
+#    --predict-tags
 #    --rerun
 #
 # By default (i.e. without any parameters): local run, full set.

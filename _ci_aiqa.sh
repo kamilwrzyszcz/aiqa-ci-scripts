@@ -35,6 +35,9 @@ fi
 if [ "$1" == "--predict-divided" ]; then
     CMD_PARAM="--strategy=predict-divided"
 fi
+if [ "$1" == "--predict-tags" ]; then
+    CMD_PARAM="--predict-tags"
+fi
 if [ "$1" == "--smoke" ]; then
     CMD_PARAM="--strategy=smoke"
 fi
